@@ -51,3 +51,35 @@ pytest.fixture(scope='session')
 The default is 'function', which means fixture setup and teardown is done for each test, isolating them.
 This is highly preferred but if the setup/teardown is expensive, shared use of a fixture can be employed.
 Be careful to ensure that this does not introduce dependency on ordering of test execution due to test pollution.
+
+## autouse
+If a fixture is to be used for all test cases, use the `autouse` parameter:
+```python
+pytest.fixture(autouse=True)
+```
+This will implicitly run it for all tests. This can be useful for:
+* setting up a common initial set of test data
+* mocking out a service call in all places (there are other ways around this issue but that's outside the scope of this post)
+
+## conftest.py
+The `conftest.py` is implicitly imported into every test module in the same directory. Put fixtures that are intended to be shared across modules in here.
+
+## Parametrizing Fixtures
+Fixtures can be parametrized using the `params` parameter:
+```python
+@pytest.fixture(
+  params=[
+    'alice',
+    'bob',
+  ],
+)
+def setup_user(users):
+    return db.get_session(users.param)
+```
+This fixture will run the test case with the `alice` user session setup first, then it will run again for `bob`.
+This feature can be handy for running tests:
+* against multiple db orms
+* testing different users acls
+
+This is similar to parametrizing unit tests but this will re-run all the tests universally.
+This feature is more suited when you have different actors on your systems and you expect to run all the tests for each actor.
