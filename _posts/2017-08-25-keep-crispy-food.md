@@ -3,8 +3,7 @@ layout: default
 title: Keeping fried foods crispy
 ---
 # How to Keep Deep Fried Foods Cripsy
-![fried onion bloom](https://giant.gfycat.com/ClumsyAmbitiousArizonaalligatorlizard.gif)
-![Victory gif](https://media.giphy.com/media/uTuLngvL9p0Xe/giphy.gif)
+![fried](http://upl.stack.com/wp-content/uploads/2015/08/Fried-Foods-STACK.jpg)
 ## What's the problem?
 I always wonder why some fried foods get soggy or soft as short as 30 minutes after cooking.
 Even when properly fried, some fried foods do not keep while others stay crispy for a long period.
