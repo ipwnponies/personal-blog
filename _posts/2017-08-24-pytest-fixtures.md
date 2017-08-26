@@ -1,3 +1,7 @@
+---
+layout: default
+title: Pytest Fixtures
+---
 # pytest fixtures
 ## Documentation
 Official docs are at https://docs.pytest.org/en/latest/fixture.html
