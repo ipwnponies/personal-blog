@@ -13,3 +13,15 @@ author:
     - label: "Github"
       icon: fab fa-fw fa-github
       url: https://github.com/ipwnponies
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      toc: true
+      toc_sticky: true
+      toc_label: On This Page

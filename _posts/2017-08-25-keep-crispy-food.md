@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Keeping fried foods crispy
 ---
 # How to Keep Deep Fried Foods Cripsy

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Caching Properties in Python
 ---
 # What are cached properties and why do I care?

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: SSHD Multiple Authentication Methods
 ---
 # Setting Up an SSH Server with Multiple Authentication Method

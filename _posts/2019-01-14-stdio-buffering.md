@@ -1,5 +1,4 @@
 ---
-layout: default
 title: stdio Buffering
 ---
 # What is line buffering

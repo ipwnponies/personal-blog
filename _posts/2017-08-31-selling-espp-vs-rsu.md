@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Selling ESPP vs. RSU
 ---
 # Employee Stock Purchase Plan

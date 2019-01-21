@@ -1,5 +1,4 @@
 ---
-layout: default
 title: SSH Proxy Command
 ---
 # SSH Proxy Command

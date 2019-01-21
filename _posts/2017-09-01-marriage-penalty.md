@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Marriage Penalty
 ---
 # What is the Marriage Penalty?

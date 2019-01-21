@@ -1,5 +1,4 @@
 ---
-layout: default
 title: SSH Tunneling
 ---
 # SSH Tunnel Forwarding

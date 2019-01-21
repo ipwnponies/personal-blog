@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Setting Up YouComplete with Javascript Completion
 ---
 
