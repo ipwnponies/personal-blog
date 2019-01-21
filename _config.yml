@@ -1,1 +1,15 @@
-theme: jekyll-theme-tactile
+---
+plugins:
+  - jekyll-include-cache
+remote_theme: mmistakes/minimal-mistakes@4.15.1
+
+search: true
+author:
+  name: ipwnponies
+  bio:
+    I love food, programming, and useless trivia. Often I'll lose myself down a rabbit hole. Or an experiment that ended
+    in disappointment. Let's document this so I can pretend I got smarter everyday.
+  links:
+    - label: "Github"
+      icon: fab fa-fw fa-github
+      url: https://github.com/ipwnponies
