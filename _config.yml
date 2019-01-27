@@ -41,3 +41,10 @@ collections:
   cooking:
     output: true
     permalink: /:collection/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
