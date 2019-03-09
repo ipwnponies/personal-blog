@@ -1,6 +1,7 @@
 ---
 layout: collection
 title: Cooking
+collection: cooking
 permalink: /cooking/
 ---
 
