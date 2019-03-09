@@ -1,8 +1,8 @@
 ---
 layout: collection
-title: Cooking
-collection: cooking
-permalink: /cooking/
+title: Recipes
+collection: recipes
+permalink: /recipes/
 ---
 
 I like food.
