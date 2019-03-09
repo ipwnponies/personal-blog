@@ -1,0 +1,6 @@
+---
+main:
+  - title: "Blog Posts"
+    url: /
+  - title: "Recipes"
+    url: /recipes/
