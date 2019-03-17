@@ -2,23 +2,31 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$x-large: 1600;
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// These overrides move the TOC sidebar to the left-side, in the same space as author profile. These two element are
+// incompatible for this reason.
+// That's acceptable because our use of them are mutually exclusive:
+// - author profile is only shown on main entry point pages
+// - TOC only shown on longer post content
+
 .sidebar__right.sticky {
     @include breakpoint($large) {
-        right: unset;
+        // Mirror the existing right side values to the left.
         left: 0;
         margin-left: -1 * $right-sidebar-width-narrow;
-        margin-right: unset;
-        padding-left: unset;
         padding-right: 1em;
 
+        // Unset the right values to be a good citizen.
+        right: unset;
+        margin-right: unset;
+        padding-left: unset;
+
         &.sticky {
+            // Move this to the left side, which coincides with the area reserved for author profile.
             float: left;
         }
     }
@@ -27,4 +35,10 @@ $x-large: 1600;
         margin-left: -1 * $right-sidebar-width;
         margin-right: unset;
     }
+}
+
+.page {
+    // Remove the reserved space on right side.
+    // There is no need to mirror to the left, this is using author profile.
+    padding-right: unset;
 }
