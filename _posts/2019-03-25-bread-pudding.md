@@ -45,5 +45,5 @@ I use less because I intend to eat it with maple syrup.
 
 ---
 
-{% assign recipe = site.recipes | where: "title",  "Cinnamon Rolls" | first %}
-{{recipe.content}}
+{% assign recipe = site.recipes | where: "title",  "Bread Pudding" | first %}
+{% include recipe.html page=recipe %}
