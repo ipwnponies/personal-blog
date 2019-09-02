@@ -7,7 +7,7 @@ tag:
 # Recipe
 
 I use the dough from [King Arthur Flour](https://www.kingarthurflour.com/recipes/soft-cinnamon-rolls-recipe).
-It's uses a tangzhong method, which is a roux that's made with 10% of the flour.
+It uses the *tangzhong* method, which is a roux that's made with 10% of the flour.
 This helps to keep the final bake moist, by increasing the flour's ability to hold on to moisture.
 
 ## Tangzhong
@@ -18,13 +18,11 @@ This helps to keep the final bake moist, by increasing the flour's ability to ho
 
 ### Technique
 
-The tangzhong is a simple roux.
+The *tangzhong* is a simple roux.
 Whisk flour and liquids until well-mixed.
-Gently heat up and continue whisking.
+Gently heat up while whisking.
 Tangzhong is done when the roux "leaves lines" after spatula or whisk if pulled through.
-
-That being said, I've overcooked the tangzhong to the point where it's completely thickened.
-The resulting bake still comes out just fine.
+This is ~60-65 C.
 
 ## Dough
 
@@ -32,7 +30,7 @@ The resulting bake still comes out just fine.
 * 500 g flour
 * 20 g milk powder
 * 8 g salt
-* 1 tbsp yeast (whole packet)
+* 7 g yeast (whole packet)
 * 170 g milk, lukewarm
 * 2 large eggs
 * 85 g butter (3/4 of stick)
@@ -56,9 +54,11 @@ The technique is pretty straightforward:
 1. Mix ingredients together.
 1. Leave to autolyse for 20 minutes.
 1. Knead well.
+    This will take a longer time than expected because the tangzhong removes gluten from play.
 1. Shape into a ball, let rest for 60 to 90 minutes.
-Timing will depend on how warm the initial dough is, how warm the kitchen is, how much yeast was used, etc.
-1. Roll out into a 18"x8" rectangle. Be sure to dust a little flour.
+    Timing will depend on how warm the initial dough is, how warm the kitchen is, how much yeast was used, etc.
+1. Split dough into two and roll out into a 18"x8" rectangle.
+    Be sure to dust liberally with flour so it doesn't stick when rolling.
 1. Spread filling evenly.
 1. Roll up along the long edge.
 1. Square off the ends and cut into 12 equal pieces.
