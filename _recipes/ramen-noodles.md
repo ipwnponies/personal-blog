@@ -2,6 +2,7 @@
 title: Ramen Noodles
 tags:
   - ramen
+  - noodles
   - kitchenaid
 ---
 
