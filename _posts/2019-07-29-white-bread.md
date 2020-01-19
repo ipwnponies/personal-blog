@@ -3,6 +3,7 @@ title: White Sandwich Bread
 categories:
 - cooking
 tags:
+- recipe
 - baking
 - bread
 ---
@@ -16,9 +17,9 @@ The only hiccup is that the dough proofed very quickly, due to the warm kitchen.
 
 [1]: https://www.kingarthurflour.com/recipes/king-arthurs-classic-white-sandwich-bread-recipe
 
-# Learnings
+## Learnings
 
-## Dough Hydration
+### Dough Hydration
 
 One note I liked was that the recipe notes explains explains the variability of hydration.
 Their take was that flour can be more or less hydrated based on humidity levels.
@@ -27,7 +28,7 @@ Living in Bay Area, things are probably on the more humid side of things, than c
 This is something that's taken me awhile to learn to adjust for.
 On average, I either need to assume a cup of flour is 140 g or hold back about 10% less liquid to begin with.
 
-## Dough Smoothness
+### Dough Smoothness
 
 I kneaded the dough in a stand mixer but after 20 minutes, I gave up.
 I was expecting the dough to come together into a smooth ball but it remained a bit rough and straggly by the end.
@@ -38,7 +39,7 @@ The lack of smoothness might be due to the enriched dough, with sugars and fats 
 But overmixing the dough can lead to a tough sandwich bread.
 I figured since this was sandwich bread, the importance of smooth ball of dough was less crucial.
 
-## Adjusting Proofing Times
+### Adjusting Proofing Times
 
 My kitchen was very warm and the dough proofed very quickly.
 It was done the first rise in 60 minutes and the second one in 40 minutes.
@@ -53,7 +54,7 @@ This would likely cause it to be weak and collapse during baking, which would ma
 Since the proof was too rapid, I also made sure to score the loaf (not mentioned in the recipe directions).
 I figured that scoring the loaf would at least control any bursting due to oven-spring.
 
-## Soft Crust
+### Soft Crust
 
 Sandwich bread has the characteristic soft crust.
 This is achieved by applying a butter wash before and after baking.

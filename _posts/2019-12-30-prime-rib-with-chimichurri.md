@@ -3,6 +3,7 @@ title: Prime Rib with Chimichurri
 categories:
 - cooking
 tags:
+- recipe
 - roast
 - beef
 ---

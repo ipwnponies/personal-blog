@@ -3,6 +3,7 @@ title: Hotdog Buns
 categories:
 - cooking
 tags:
+- recipe
 - baking
 - bread
 ---
@@ -11,7 +12,7 @@ I tried my hand at making hotdog buns, following the [foodwishes recipe][1].
 
 [1]: https://www.allrecipes.com/recipe/237824/chef-johns-hot-dog-buns/
 
-# Review of Recipe
+## Review of Recipe
 
 The dough can also be used to make hamburger buns, if shaped differently.
 This is light brioche bun that is common on gourmet burgers.

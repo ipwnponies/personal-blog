@@ -2,8 +2,8 @@
 title: BBQ Spice Rub
 categories:
 - cooking
-- recipes
 tags:
+- recipe
 - bbq
 ---
 

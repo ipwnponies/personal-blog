@@ -3,8 +3,8 @@ title: Baking Bread Pudding
 categories:
 - cooking
 tags:
+- recipe
 - baking
-- recipes
 - custard
 - leftovers
 ---

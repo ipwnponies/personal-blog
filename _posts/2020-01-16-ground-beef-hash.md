@@ -3,6 +3,7 @@ title: Ground Beef Hash
 categories:
 - cooking
 tags:
+- recipe
 - ground beef
 ---
 

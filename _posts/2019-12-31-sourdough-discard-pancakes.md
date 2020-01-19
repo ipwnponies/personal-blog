@@ -3,6 +3,7 @@ title: Sourdough Discard Pancakes
 categories:
 - cooking
 tags:
+- recipe
 - pancakes
 - sourdough
 ---

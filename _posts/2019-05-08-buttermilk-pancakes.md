@@ -3,6 +3,7 @@ title: Buttermilk Pancake
 categories:
 - cooking
 tags:
+- recipe
 - pancakes
 - baking
 - buttermilk

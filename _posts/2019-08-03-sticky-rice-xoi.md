@@ -3,6 +3,7 @@ title: "Sticky Rice (Xoi)"
 categories:
 - cooking
 tags:
+- recipe
 - steam
 - dessert
 - vietnamese

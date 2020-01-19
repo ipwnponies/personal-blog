@@ -3,6 +3,7 @@ title: Cinnamon Rolls
 categories:
 - cooking
 tags:
+- recipe
 - baking
 ---
 

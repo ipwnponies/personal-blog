@@ -3,6 +3,7 @@ title: Scottish Meat Pies
 categories:
 - cooking
 tags:
+- recipe
 - pie
 ---
 

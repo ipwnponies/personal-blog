@@ -2,8 +2,9 @@
 title: Protein Fluff
 categories:
 - cooking
-- lifting
+- fitness
 tags:
+- recipe
 - protein
 ---
 
