@@ -2,8 +2,8 @@
 title: Python Coverage, TravisCI, and Coveralls
 categories:
 - programming
-- python
 tags:
+- python
 - coverage
 - travisci
 ---
@@ -16,14 +16,14 @@ I share the same sentiments as this [blog post].
 [coveralls]: https://coveralls.io/
 [blog post]: http://blog.pythonity.com/coveralls-with-travis-ci-tox-pytest.html
 
-# Coveralls
+## Coveralls
 
 Coveralls is a site that accepts and parses different coverage data formats.
 It's provides a nice way to view real-time coverage information, without having to go to `master` branch in TravisCI and
 parsing the test output manually.
 You can also add a badge with the stats to your project's documentation, which is pretty.
 
-# Integration with TravsCI
+## Integration with TravsCI
 
 Here's where the docs started to quickly break down.
 You need to set the coveralls API token to submit coverage data.
@@ -36,7 +36,7 @@ The takeaway here is:
 * If you're using TravisCI, you only need to call `coveralls` client and it will be able to communicate.
 * If you're **not** using TravisCI, you need to include the API token as an environment variable.
 
-# python-coveralls vs. coveralls-python
+## python-coveralls vs. coveralls-python
 
 > `python-coveralls` by Andrea De Marco `coveralls-python` by Ilya Baryshev
 > Instructions in README’s.
