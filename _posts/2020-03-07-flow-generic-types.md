@@ -38,12 +38,12 @@ Use inference for convenience but declare interface boundaries to set expectatio
 This sets error boundaries and limits the scope of type checking bugs.
 
 ```js
-// Don't infer type, set an interface boundary
-const count: number = get_number_str(); // error
-console.log(count.toFixed()) // No type error but still going to blow up at runtime
-
 const rookieMistakeNum = incorrect_function_returning_string(); // wrong type silently returned
-return rookieMistakeNum.toFixed() // Misleading flow error
+console.log(rookieMistakeNum.toFixed()) // Misleading flow error
+
+// Don't infer type, set an interface boundary
+const count: number = get_number_str(); // Flow error, directly at the source of bug
+console.log(count.toFixed()) // No type error but still going to blow up at runtime
 ```
 
 **Protip:** Definitely always statically declare types of encapsulated objects.
@@ -56,6 +56,7 @@ before releasing to the world.
 ## Generics
 
 On to generics, definitely read up on [wikipedia][2].
+
 [Flow generic reference][3]
 
 [2]: https://en.wikipedia.org/wiki/Generic_programming
@@ -135,7 +136,7 @@ const InternalComponent = ({foo, bar, baz}) => {
 
 // Externally exposed component, conveniently with no presence of foo and bar
 const Component =  withFooAndBarInjected(InternalComponent);
-// <Component baz={blah} />
+console.log(<Component baz={blah} />);
 ```
 
 An example here is that we have values `foo` and `bar` that we want to pull and automatically injected as props.
@@ -143,7 +144,13 @@ An example here is that we have values `foo` and `bar` that we want to pull and 
 We definitely need to use generics because we do not have all the time and energy in the world to create a bunch of `withFooAndBarInjected`
 for each and every component we want to hook up.
 We want `withFooAndBarInjected` to be able to automatically adapt and output a wrapped component that is still type correct.
-THe magic is with [`Diff`][4], which is a set difference between the full set of props from `InternalComponent` and `InjectedProps`.
-The resultant prop is dynamically calculated by flow to be only the prop we require from end user.
+
+#### $Diff
+
+The magic is with [`$Diff`][4], which is a **set difference** between `InternalComponent` and `InjectedProps`.
+The resulting prop is dynamically calculated by flow and **only contains the prop we require** from end user.
 
 [4]: https://flow.org/en/docs/types/utilities/#toc-diff
+
+In the example above, we want to remove `foo` and `bar` from the final set of props.
+This leaves a component that only requires `baz` for props, yet still has full set of props to properly render the component.
