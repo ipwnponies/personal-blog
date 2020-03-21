@@ -48,6 +48,13 @@ The misattribution might have more historical or political context, such as nami
 
 It's technically a butter cake and not a sponge at all.
 
+**Edit:** This [post][2] discusses that the Victoria sponge and pound cake share the same ratios but different methods.
+The sponge cake uses creaming method while the pound cake uses muffin method.
+But it also acknowledges that definition has blurred and pedantry requires regional context.
+At this point, it's in the air when you hear name sponge or pound cake, the recipe itself will dictate its true nature.
+
+ [2]: https://cooking.stackexchange.com/a/96218
+
 ## American yellow cake
 
 This is the commonly found cake.
