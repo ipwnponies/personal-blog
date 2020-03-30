@@ -12,6 +12,10 @@ I've adapted the [recipe from this video][2] on the _Simply Mama Cooks_ channel 
 [1]: https://www.youtube.com/watch?v=vs47KTI4Ckk "banana leaf tamale"
 [2]: https://youtu.be/4xiwU4mNDwY "beef tamales"
 
+This is another [tamal dough recipe][muy-bueno-tamal-dough], from *Muy Bueno Cookbook*
+
+[muy-bueno-tamal-dough]: https://muybuenocookbook.com/tamal-dough-made-masa-harina/#wprm-recipe-container-38148
+
 ## Recipe
 
 Ingredient | Baker's Percentage (%)| Amount for one batch (g)
