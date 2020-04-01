@@ -2,7 +2,7 @@
 title: Tinga Poblana
 categories:
 - cooking
-tags;
+tags:
 - mexican
 - tortilla
 - pork
