@@ -6,6 +6,7 @@ tags:
 - recipes
 - vietnamese
 - instant pot
+- sticky rice
 ---
 
 Chinese New Year is also a big deal in Vietnamese culture.
