@@ -45,8 +45,8 @@ The dough will be more supple and malleable, making it harder to initially knead
 Ingredient | Baker's % | Amount for 2 flour tortilla (g)
 |-|-:|-:|
 Flour | 100 | 40
-Oil | 12.5 | 5
-Water | 60 | 24
+Oil | 5 | 2
+Water | 50 | 20
 Salt | 1.2 | sprinkle
 
 For corn tortillas:
@@ -54,7 +54,7 @@ For corn tortillas:
 Ingredient | Baker's % | Amount for 3 5" corn tortillas (g)
 |-|-:|-:|
 Masa Harina | 100 | 40
-Water | 140 | 56
+Water | 150 | 60
 Salt | 1.2 | sprinkle
 
 ## Technique
