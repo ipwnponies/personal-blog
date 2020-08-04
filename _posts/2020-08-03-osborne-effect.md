@@ -6,7 +6,8 @@ tags:
 - society
 ---
 
-The *Osborne Effect* is the phenomenon where a product announcement induces a negative feedback loop in the companies revenues.
+The [*Osborne Effect*][1] is the phenomenon where a product announcement induces a negative feedback loop in the
+companies revenues.
 Sometimes, when a company announces an upcoming product release, this affects a consumer's spending pattern and causes
 them to cancel or defer orders they were planning to make.
 i.e. you may not order the iPhone 9 if the iPhone X is going to be released in 2 months, at the same MSRP.
