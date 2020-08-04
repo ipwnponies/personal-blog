@@ -22,13 +22,24 @@ Baking powder | 15 g | 7.5% | 2
 Salt | 2 | 1% | 1/4
 
 I would recommend cooking 2 servings at a time, as each serving requires 1/2 egg.
-The whole mix above is 6 servings.
+The whole mix above is 8 servings.
 
 Ingredient | Ratio | Single serving (g) | Double serving, practicality (g)
 -|-:|-:|-:
 Pancake Mix | 100% | 45 | 90
 Egg | 55% | 1/2 egg (25 g) | 1 egg
 Milk | 100% | 45 | 90
+
+### Chia Seed
+
+Chia seeds can be used as an egg replacement.
+1 tbsp (10 g) of chia seeds is the substitute for 1 whole egg.
+
+Ingredient | Ratio | Single serving (g)
+-|-:|-:
+Pancake Mix | 100% | 45
+Chia seed | 7% | 3
+Water | 175% | 100
 
 ## Technique
 
