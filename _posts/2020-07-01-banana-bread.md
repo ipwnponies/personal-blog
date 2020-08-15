@@ -18,5 +18,5 @@ Perhaps the muffin allows for crown development while the loaf is amenable to sl
 
 ---
 
-{% assign recipe = site.recipes | where: "title",  Banana Bread" | first %}
+{% assign recipe = site.recipes | where: "title",  "Banana Bread" | first %}
 {% include recipe.html page=recipe %}
