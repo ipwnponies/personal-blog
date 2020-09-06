@@ -13,8 +13,6 @@ You know those chinese pancakes?
 The ones that have green onions and are flaky?
 I think these are a great way to use up excess green onions.
 
-![green onion cake](https://www.seriouseats.com/images/20110406-food-lab-scallion-pancake-12.jpg)
-
 Green onions are only sold in big bunches.
 If you buy a small bunch or pre-chopped, it ends up costing the same!
 And they don't last very long once chopped up or freeze well either because they lose their texture entirely.
