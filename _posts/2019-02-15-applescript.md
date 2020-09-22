@@ -11,7 +11,7 @@ I learned how to use AppleScript to write a macro that would connect to a blueto
 AppleScript is a scripting language for MacOS that can be used to automate UI things.
 I'm using it to click through menu items for me automatically.
 
-# General Design
+## General Design
 
 Scripts can be written in applescript or javascript.
 I found applescript to be easy enough to grok and pick up, given enough examples.
@@ -22,10 +22,18 @@ You can navigate down the tree specifying menu items by index, title, or with a 
 Method | Example
 -|-
 Index | menu item 1
-Title | menu item "AirPods"
-Filter | menu item whose title "Airpods"
+Title | menu item "Foo's AirPods"
+Filter | menu item whose title "Foo's Airpods"
 
-# OS Menulet
+**Note**: these use ["curly quotes"][curly-quotes], not regular apostrophes.
+What are [curly quotes][curly-quotes-using]?
+I won't get into it here but snobby typographers decided to complicate things, instead of letting computers do all the smarts.
+Why apple chose to use it here, as the identifier for device is beyond me.
+
+[curly-quotes]: https://en.wikipedia.org/wiki/Quotation_mark#Curved_quotes_within_and_across_applications
+[curly-quotes-using]: https://chrisbracco.com/curly-quotes/#usage-1
+
+## OS Menulet
 
 ```applescript
 activate application "SystemUIServer"
@@ -33,7 +41,7 @@ tell application "System Events" to tell process "SystemUIServer"
         set btMenu to (menu bar item 1 of menu bar 1 whose description contains "bluetooth")
         tell btMenu
             click
-            tell (menu item "AirPods" of menu 1)
+            tell (menu item "Foo's AirPods" of menu 1)
                 click
                 if exists menu item "Connect" of menu 1 then
                     click menu item "Connect" of menu 1
@@ -44,7 +52,7 @@ tell application "System Events" to tell process "SystemUIServer"
 end tell
 ```
 
-# Third-Party Menus
+## Third-Party Menus
 
 The menu bar at the top consists of OS and third-party menu items.
 OS menu bar items belong to `SystemUIServer` process.
@@ -64,7 +72,7 @@ tell application "System Events" to tell process "Alfred 3"
 end tell
 ```
 
-## Gotchas
+### Gotchas
 
 From my observations, most applications' menu bar 2 will only have a single menu bar item, the icon.
 The other gotcha I discovered was that the menu items for third-party apps are lazy loaded, unlike OS menu items.
