@@ -72,5 +72,5 @@ It's the combination of a chewy, soft, and open structure that makes this possib
 
 ---
 
-{% assign recipe = site.recipes | where: "name",  "english-muffin.md"}
+{% assign recipe = site.recipes | where: "path",  "_recipes/english-muffin.md" | first %}
 {% include recipe.html page=recipe %}
