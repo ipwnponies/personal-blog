@@ -1,10 +1,10 @@
 ---
 title: Instant Pot Rice
 categories:
-- cooking
+  - cooking
 tags:
-- instantpot
-- rice
+  - instantpot
+  - rice
 ---
 
 I've been very perplexed about how to cook rice in an instant pot.
@@ -51,11 +51,21 @@ When calculated to a ratio by weight, this is 1:1.3.
 This is a good starting point but you'll need to tweak this for every batch of rice you purchase.
 There are many factors that affect why differing amounts of water is required:
 
-* Some rice varieties absorb more.
-    Basmati supposedly requires more water
-* Different brands and batches may be differently aged.
-  * Like dried beans, the older they are, the more water they'll probably need.
-  * Different regions farming the same crop can have differing humidity or drying practices
-* Where you live could change the ambient humidity and moisture that dry rice reaches in equilibrium
+- Some rice varieties absorb more.
+  Basmati supposedly requires more water
+- Different brands and batches may be differently aged.
+  - Like dried beans, the older they are, the more water they'll probably need.
+  - Different regions farming the same crop can have differing humidity or drying practices
+- Where you live could change the ambient humidity and moisture that dry rice reaches in equilibrium
 
-Anecdotally, I've cooked with 1:1.4 and it turned out wonderfully.
+Anecdotally, I've cooked jasmine rice with 140% and it turned out wonderfully.
+I would even push it further to 150%.
+
+### Cooking Time
+
+I typically cook rice in the Instant Pot using the pot-in-pot method, as I cook <3 servings at a time.
+The cooking times need to be extended to 10 minutes.
+
+I think it takes longer because pot-in-pot cooking method has less water in the pot, which is less mass to bring up to temp.
+It takes <5 minutes to reach pressure from a cold start.
+If I were to measure total cooking time, I wonder if it's the same cumulative time spent at temp.
