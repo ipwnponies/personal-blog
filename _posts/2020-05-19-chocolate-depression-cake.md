@@ -7,6 +7,7 @@ tags:
 - chocolate
 - cake
 - baking
+- ration-recipe
 ---
 
 ## History
