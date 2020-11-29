@@ -19,11 +19,11 @@ I found applescript to be easy enough to grok and pick up, given enough examples
 OSX menus are designed in a tree hierarchy.
 You can navigate down the tree specifying menu items by index, title, or with a filter.
 
-Method | Example
--|-
-Index | menu item 1
-Title | menu item "Foo's AirPods"
-Filter | menu item whose title "Foo's Airpods"
+| Method | Example                               |
+| ------ | ------------------------------------- |
+| Index  | menu item 1                           |
+| Title  | menu item "Foo's AirPods"             |
+| Filter | menu item whose title "Foo's Airpods" |
 
 **Note**: these use ["curly quotes"][curly-quotes], not regular apostrophes.
 What are [curly quotes][curly-quotes-using]?
@@ -32,6 +32,10 @@ Why apple chose to use it here, as the identifier for device is beyond me.
 
 [curly-quotes]: https://en.wikipedia.org/wiki/Quotation_mark#Curved_quotes_within_and_across_applications
 [curly-quotes-using]: https://chrisbracco.com/curly-quotes/#usage-1
+
+Edit: I got around to writing a [post][smart-apostrophe] about smart quotes.
+
+[smart-apostrophe]: ./2020-11-28-smart-apostrophe.md#applescript
 
 ## OS Menulet
 
