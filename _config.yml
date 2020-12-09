@@ -1,7 +1,6 @@
 ---
 plugins:
   - jekyll-include-cache
-  - jekyll-relative-links
 remote_theme: mmistakes/minimal-mistakes@4.15.1
 
 search: true
