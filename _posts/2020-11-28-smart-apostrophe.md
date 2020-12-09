@@ -33,4 +33,4 @@ would choose, for a hill to die on.
 It's literally for the scripting language, it doesn't even need to be smart quotes.
 We just need delimiters for string literals and, by convention, we chose double quotes.
 
-[applescript]: ./2019-02-15-applescript.md#os-menulet
+[applescript]: {% post_url 2019-02-15-applescript %}#os-menulet

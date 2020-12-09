@@ -35,7 +35,7 @@ Why apple chose to use it here, as the identifier for device is beyond me.
 
 Edit: I got around to writing a [post][smart-apostrophe] about smart quotes.
 
-[smart-apostrophe]: ./2020-11-28-smart-apostrophe.md#applescript
+[smart-apostrophe]: {% post_url 2020-11-28-smart-apostrophe %}#applescript
 
 ## OS Menulet
 
