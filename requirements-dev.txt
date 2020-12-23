@@ -6,5 +6,6 @@ pudb
 pylint
 pytest
 python-frontmatter
+tabulate
 typer
 typer-cli
