@@ -3,7 +3,7 @@ title: Chocolate Depression Cake
 categories:
 - cooking
 tags:
-- recipes
+- recipe
 - chocolate
 - cake
 - baking

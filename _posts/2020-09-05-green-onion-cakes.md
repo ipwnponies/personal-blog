@@ -5,7 +5,7 @@ categories:
 tags:
 - recipe
 - chinese
-- pancake
+- pancakes
 - green onion
 ---
 

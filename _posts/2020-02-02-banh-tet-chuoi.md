@@ -3,7 +3,7 @@ title: Banh tet chuoi
 categories:
 - cooking
 tags:
-- recipes
+- recipe
 - vietnamese
 - instant pot
 - sticky rice

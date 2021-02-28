@@ -3,7 +3,7 @@ title: Instant Pot Rice
 categories:
   - cooking
 tags:
-  - instantpot
+  - instant pot
   - rice
 ---
 
