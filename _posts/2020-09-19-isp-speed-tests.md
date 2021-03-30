@@ -221,46 +221,12 @@ All this done without without having to manually enter 144 results (48 runs \* d
 
 ### fast.com script
 
-```js
-function scrap() {
-  var dl = document.querySelector('#speed-value').textContent
-  var ul = document.querySelector('#upload-value').textContent
-  var lat = document.querySelector('#latency-value').textContent
-  var latLoad= document.querySelector('#bufferbloat-value').textContent
-
-  console.log([dl, ul, lat, latLoad].join(','))
-}
-
-observer = new MutationObserver((mutationsList, observer)=> {
-  for (const mutation of mutationsList) {
-    if (mutation.attributeName === 'class' && mutation.target.classList.contains('succeeded')){
-      scrap();
-      alert('copied!');
-    }
-  }
-})
-
-observer.observe(document.querySelector('#speed-progress-indicator'), {attributes: true})
-```
+<!-- markdownlint-disable MD033-->
+<script src="https://gist.github.com/ipwnponies/88bcfd19a029a84dc1b0fdc4ae713e11.js?file=fast-scraper.js"></script>
+<!-- markdownlint-enable MD033-->
 
 ### speedtest.net script
 
-```js
-function scrap() {
-  var dl = document.querySelector('[data-download-status-value]').textContent
-  var ul = document.querySelector('[data-upload-status-value]').textContent
-  var lat = document.querySelector('[data-latency-status-value]').textContent
-  console.log([dl, ul, lat].join(','))
-}
-
-observer = new MutationObserver((mutationsList, observer)=> {
-  for (const mutation of mutationsList) {
-    if (mutation.attributeName === 'class' && mutation.target.classList.contains('result-container-speed-active')){
-      scrap();
-      alert('copied!');
-    }
-  }
-})
-
-observer.observe(document.querySelector('.result-container-speed'), {attributes: true})
-```
+<!-- markdownlint-disable MD033-->
+<script src="https://gist.github.com/ipwnponies/88bcfd19a029a84dc1b0fdc4ae713e11.js?file=speedtest-scraper.js"></script>
+<!-- markdownlint-enable MD033-->
