@@ -3,7 +3,7 @@ title: Python Metaclasses
 categories: programming
 tags:
   - python
-  - OOP
+  - oop
 ---
 
 I'm working on a Python 3 migration and have been refreshing myself on the changes.
